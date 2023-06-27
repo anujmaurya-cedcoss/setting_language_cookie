@@ -20,7 +20,6 @@ $config = new Config([]);
 define('BASE_PATH', dirname(__DIR__));
 define('APP_PATH', BASE_PATH . '/app');
 
-include_once BASE_PATH . '/vendor/autoload.php';
 // Register an autoloader
 $loader = new Loader();
 
